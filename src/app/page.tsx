@@ -1,19 +1,22 @@
 'use client'
 
-import { Container, Row } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import NavBar from "./components/NavBar";
 import HomeBanner from "./components/HomeBanner";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Achievements from "./components/Achievements";
+import Skills from "./components/Skills";
 
 export default function Home() {
   return (
     <Container>
-      <NavBar/>
+      {/* <NavBar/> */}
+      <div style={{ height: '10vh' }}></div>
       <HomeBanner/>
       <About/>
       <Experience/>
+      <Skills/>
       <Achievements/>
     </Container>
   );

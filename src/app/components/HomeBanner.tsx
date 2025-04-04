@@ -24,7 +24,7 @@ export default function HomeBanner() {
                     <TypewriterComponent options={writerOptions} />
                 </Col>
                 <Col>
-                    <Image src="./assets/blog-logo-3.jpeg" width={500}></Image>
+                    <Image src="./assets/blog-logo-22.png" height={800} width={800}></Image>
                 </Col>
             </Row>
         </Container>
