@@ -50,7 +50,7 @@ export default function Skills() {
                 <Tab label="Programming Languages" {...a11yProps(0)} />
                 <Tab label="DevOps" {...a11yProps(1)} />
                 <Tab label="Databases" {...a11yProps(2)} />
-                <Tab label="Automation" {...a11yProps(2)} />
+                <Tab label="AI" {...a11yProps(2)} />
                 <Tab label="Cloud Providers" {...a11yProps(2)} />
                 <Tab label="Architecture & Design Patterns" {...a11yProps(2)} />
             </Tabs>
@@ -61,16 +61,19 @@ export default function Skills() {
                         <CardLayers3d title="Golang" image="/assets/skills/golang.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Java" image="/assets/skills/java.png"/>
-                    </Col>
-                    <Col>
-                        <CardLayers3d title="JavaScript" image="/assets/skills/js.png"/>
+                        <CardLayers3d title="Typescript" image="/assets/skills/ts.png"/>
                     </Col>
                     <Col>
                         <CardLayers3d title="Python" image="/assets/skills/python.png"/>
                     </Col>
+                    <Col>
+                        <CardLayers3d title="Java" image="/assets/skills/java.png"/>
+                    </Col>
                 </Row>
-                <Row>
+                <Row style={{ paddingBottom: '5vh' }}>
+                    <Col>
+                        <CardLayers3d title="JavaScript" image="/assets/skills/js.png"/>
+                    </Col>
                     <Col>
                         <CardLayers3d title="Spring Framework" image="/assets/skills/spring.png"/>
                     </Col>
@@ -78,18 +81,166 @@ export default function Skills() {
                         <CardLayers3d title="Spring Boot" image="/assets/skills/boot.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Angular" image="/assets/skills/angular.png"/>
+                        <CardLayers3d title="Quarkus" image="/assets/skills/quarkus.png"/>
+                    </Col>
+                </Row>
+                <Row style={{ paddingBottom: '5vh' }}>
+                    <Col>
+                        <CardLayers3d title="Flask" image="/assets/skills/flask.png"/>
                     </Col>
                     <Col>
                         <CardLayers3d title="React" image="/assets/skills/react.png"/>
                     </Col>
+                    <Col>
+                        <CardLayers3d title="Angular" image="/assets/skills/angular.png"/>
+                    </Col>
+                    <Col>
+                    </Col>
                 </Row>
             </CustomTabPanel>
             <CustomTabPanel value={value} index={1}>
-            Item Two
+                <Row style={{ paddingBottom: '5vh' }}>
+                    <Col>
+                        <CardLayers3d title="Kubernetes" image="/assets/skills/kubernetes.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="Openshift" image="/assets/skills/ocp.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="Docker" image="/assets/skills/docker.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="Podman" image="/assets/skills/podman.png"/>
+                    </Col>
+                </Row>
+                <Row style={{ paddingBottom: '5vh' }}>
+                    <Col>
+                        <CardLayers3d title="Helm" image="/assets/skills/helm.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="Kustomize" image="/assets/skills/kustomize.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="Ansible" image="/assets/skills/ansible.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="Terraform" image="/assets/skills/terraform.png"/>
+                    </Col>
+                </Row>
+                <Row style={{ paddingBottom: '5vh' }}>
+                    <Col>
+                        <CardLayers3d title="Bash" image="/assets/skills/bash.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="Jenkins" image="/assets/skills/jenkins.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="Tekton" image="/assets/skills/tekton.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="ArgoCD" image="/assets/skills/argo.png"/>
+                    </Col>
+                </Row>
+                <Row style={{ paddingBottom: '5vh' }}>
+                    <Col>
+                        <CardLayers3d title="Prometheus" image="/assets/skills/prometheus.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="Grafana" image="/assets/skills/grafana.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="KEDA" image="/assets/skills/keda.png"/>
+                    </Col>
+                    <Col>
+                    </Col>
+                </Row>
             </CustomTabPanel>
             <CustomTabPanel value={value} index={2}>
-            Item Three
+                <Row style={{ paddingBottom: '5vh' }}>
+                    <Col>
+                        <CardLayers3d title="PostgreSQL" image="/assets/skills/postgresql.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="MariaDB" image="/assets/skills/mariadb.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="MySQL" image="/assets/skills/mysql.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="OracleDB" image="/assets/skills/oracle.png"/>
+                    </Col>
+                </Row>
+                <Row style={{ paddingBottom: '5vh' }}>
+                    <Col>
+                        <CardLayers3d title="MongoDB" image="/assets/skills/mongo.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="CassandraDB" image="/assets/skills/cassandra.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="InfluxDB" image="/assets/skills/influxdb.png"/>
+                    </Col>
+                    <Col>
+                    </Col>
+                </Row>
+            </CustomTabPanel>
+            <CustomTabPanel value={value} index={3}>
+                <Row style={{ paddingBottom: '5vh' }}>
+                    <Col>
+                        <CardLayers3d title="Ollama" image="/assets/skills/ollama.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="Mistral AI" image="/assets/skills/mistral.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="Llama AI" image="/assets/skills/llama.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="Openshift AI" image="/assets/skills/ocpai.png"/>
+                    </Col>
+                </Row>
+                <Row style={{ paddingBottom: '5vh' }}>
+                    <Col>
+                        <CardLayers3d title="Retrieval-Augmented Generation" image="/assets/skills/rag.png"/>
+                    </Col>
+                    <Col>
+                    </Col>
+                    <Col>
+                    </Col>
+                    <Col>
+                    </Col>
+                </Row>
+            </CustomTabPanel>
+            <CustomTabPanel value={value} index={4}>
+                <Row style={{ paddingBottom: '5vh' }}>
+                    <Col>
+                        <CardLayers3d title="Azure DevOps" image="/assets/skills/azure_devops.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="Azure AKS" image="/assets/skills/aks.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="Azure CosmosDB" image="/assets/skills/cosmos.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="Azure Event Hub" image="/assets/skills/event_hubs.png"/>
+                    </Col>
+                </Row>
+                <Row style={{ paddingBottom: '5vh' }}>
+                    <Col>
+                        <CardLayers3d title="Azure API Management" image="/assets/skills/azure_api.png"/>
+                    </Col>
+                    <Col>
+                    </Col>
+                    <Col>
+                    </Col>
+                    <Col>
+                    </Col>
+                </Row>
+            </CustomTabPanel>
+            <CustomTabPanel value={value} index={5}>
+                <Row style={{ paddingBottom: '5vh' }}>
+                </Row>
             </CustomTabPanel>
         </Row>
 
