@@ -52,7 +52,6 @@ export default function Skills() {
                 <Tab label="Databases" {...a11yProps(2)} />
                 <Tab label="AI" {...a11yProps(2)} />
                 <Tab label="Cloud Providers" {...a11yProps(2)} />
-                <Tab label="Architecture & Design Patterns" {...a11yProps(2)} />
             </Tabs>
             </Box>
             <CustomTabPanel value={value} index={0}>
@@ -152,6 +151,19 @@ export default function Skills() {
                         <CardLayers3d title="KEDA" image="/assets/skills/keda.png"/>
                     </Col>
                     <Col>
+                        <CardLayers3d title="MQTT" image="/assets/skills/mqtt.png"/>
+                    </Col>
+                </Row>
+                <Row style={{ paddingBottom: '5vh' }}>
+                    <Col>
+                        <CardLayers3d title="Kafka" image="/assets/skills/kafka.png"/>
+                    </Col>
+                    <Col>
+                        <CardLayers3d title="RabbitMQ" image="/assets/skills/rabbit.png"/>
+                    </Col>
+                    <Col>
+                    </Col>
+                    <Col>
                     </Col>
                 </Row>
             </CustomTabPanel>
@@ -231,15 +243,14 @@ export default function Skills() {
                         <CardLayers3d title="Azure API Management" image="/assets/skills/azure_api.png"/>
                     </Col>
                     <Col>
+                        <CardLayers3d title="AWS CodePipeline" image="/assets/skills/pipeline.png"/>
                     </Col>
                     <Col>
+                        <CardLayers3d title="AWS Elastic Beanstalk" image="/assets/skills/eb.png"/>
                     </Col>
                     <Col>
+                        <CardLayers3d title="AWS EC2" image="/assets/skills/ec2.png"/>
                     </Col>
-                </Row>
-            </CustomTabPanel>
-            <CustomTabPanel value={value} index={5}>
-                <Row style={{ paddingBottom: '5vh' }}>
                 </Row>
             </CustomTabPanel>
         </Row>
