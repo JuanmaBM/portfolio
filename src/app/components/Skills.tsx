@@ -42,16 +42,34 @@ export default function Skills() {
         setValue(newValue);
     };
 
+    const selectedStyle = {
+        '&.Mui-selected': {
+            color: '#000', // color cuando está seleccionado
+        },
+        '&:hover': {
+            color: '#000', // color al pasar el mouse (hover)
+        },
+    }
+
     const content =
         <Row>
             <h1 className="text-2xl font-bold text-gray-800 mb-4 text-center">Skills</h1>
+            <Box
+                sx={{
+                width: "10%",
+                height: "1px",
+                margin: "0 auto 2rem auto",
+                backgroundColor: "black",
+                clipPath: "polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%)",
+                }}
+            />
             <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
-            <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" centered>
-                <Tab label="Programming Languages" {...a11yProps(0)} />
-                <Tab label="DevOps" {...a11yProps(1)} />
-                <Tab label="Databases" {...a11yProps(2)} />
-                <Tab label="AI" {...a11yProps(2)} />
-                <Tab label="Cloud Providers" {...a11yProps(2)} />
+            <Tabs value={value} onChange={handleChange} aria-label="basic tabs example" centered sx={{'& .MuiTabs-indicator': {backgroundColor: '#ed000c'}}}>
+                <Tab sx={selectedStyle} label="Programming Languages" {...a11yProps(0)} />
+                <Tab sx={selectedStyle} label="DevOps" {...a11yProps(1)} />
+                <Tab sx={selectedStyle} label="Databases" {...a11yProps(2)} />
+                <Tab sx={selectedStyle} label="AI" {...a11yProps(2)} />
+                <Tab sx={selectedStyle} label="Cloud Providers" {...a11yProps(2)} />
             </Tabs>
             </Box>
             <CustomTabPanel value={value} index={0}>
@@ -287,7 +305,7 @@ export default function Skills() {
     return (
         <div>
             <div style={{ height: '20vh' }}></div>
-            <SlideSection content={content} revealPosition={500} setShow={setShowSkills} show={showSkills} />
+            <SlideSection content={content} revealPosition={1900} setShow={setShowSkills} show={showSkills} />
         </div>
     )
 }

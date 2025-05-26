@@ -1,4 +1,4 @@
-import { Card, CardActionArea, CardContent, CardMedia, Stack, Typography } from "@mui/material";
+import { Box, Card, CardActionArea, CardContent, CardMedia, Stack, Typography } from "@mui/material";
 import { Row } from "react-bootstrap";
 import SlideSection from "./SlideSection";
 import { useState } from "react";
@@ -79,6 +79,15 @@ export default function Achievements() {
     const content =
         <Row className="justify-content-center align-items-center">
             <h1 className="text-2xl font-bold text-gray-800 mb-4 text-center">Achievements</h1>
+            <Box
+                sx={{
+                width: "10%",
+                height: "1px",
+                margin: "0 auto 2rem auto",
+                backgroundColor: "black",
+                clipPath: "polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%)",
+                }}
+            />
             <Grid container spacing={3}>
                 {achievements.map((value) =>
                     <Grid>
@@ -91,7 +100,7 @@ export default function Achievements() {
     return (
         <div>
             <div style={{ height: '20vh' }}></div>
-            <SlideSection content={content} revealPosition={1500} setShow={setShowAchievements} show={showAchievements} />
+            <SlideSection content={content} revealPosition={3000} setShow={setShowAchievements} show={showAchievements} />
         </div>
     )
 }

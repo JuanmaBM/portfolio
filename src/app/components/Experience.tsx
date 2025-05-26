@@ -1,4 +1,4 @@
-import { Accordion, AccordionDetails, AccordionSummary, Avatar, Slide, Typography } from "@mui/material";
+import { Accordion, AccordionDetails, AccordionSummary, Avatar, Box, Slide, Typography } from "@mui/material";
 import { useEffect, useState } from "react";
 import { Col, Row } from "react-bootstrap";
 import SlideSection from "./SlideSection";
@@ -19,6 +19,15 @@ export default function Experience() {
     const content = 
         <Row>
             <h1 className="text-2xl font-bold text-gray-800 mb-4 text-center">Experience</h1>
+            <Box
+                sx={{
+                width: "10%",
+                height: "1px",
+                margin: "0 auto 2rem auto",
+                backgroundColor: "black",
+                clipPath: "polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%)",
+                }}
+            />
             <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
                 <AccordionSummary>
                     <Avatar alt="Redhat logo" src="assets/redhat-logo.png"/>
@@ -31,7 +40,7 @@ export default function Experience() {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                        <p className="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root">
+                        <p>
                             I work as a Software Engineer for the Hybrid Console Management (HCM) Engineering Productivity Team. This team is responsible for making the daily operations of other HCM teams more efficient. Some of my responsibilities include developing tools and applications that assist with deploying, monitoring, and testing HCM applications.
                         </p>
                         <p className="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root">
@@ -129,7 +138,7 @@ export default function Experience() {
     return (
         <div>
             <div style={{ height: '20vh' }}></div>
-            <SlideSection content={content} revealPosition={500} setShow={setShowExperience} show={showExperience} />
+            <SlideSection content={content} revealPosition={1000} setShow={setShowExperience} show={showExperience} />
         </div>
     );
 };
