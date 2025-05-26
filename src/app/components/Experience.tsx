@@ -43,13 +43,17 @@ export default function Experience() {
                         <p>
                             I work as a Software Engineer for the Hybrid Console Management (HCM) Engineering Productivity Team. This team is responsible for making the daily operations of other HCM teams more efficient. Some of my responsibilities include developing tools and applications that assist with deploying, monitoring, and testing HCM applications.
                         </p>
-                        <p className="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root">
+                        <p>
                             These responsibilities require a broad knowledge of software development, including not only software development but also Kubernetes/OpenShift capabilities, QA/Testing, Monitoring/Logging, Cloud providers, and even ML/AI.
                         </p>
-                        <p className="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root">
+                        <p>
                             Our solutions must adapt to each requirement and are designed to be robust and highly available. To achieve this, we use technologies like OpenShift, Kafka, PostgreSQL, and AWS. Our main tools and applications are written in Go and React, but we are open to using various languages and tools such as Python, Ansible, and Bash.
                         </p>
-                        <p className="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root">
+                        <p>
+                            With the rise of AI technologies, we are actively working on integrating Large Language Models (LLMs) into our solutions. We use technologies like vLLM, custom tooling, fine-tuning, model deployment, and MLOps practices to develop tools and applications that leverage LLM capabilities to support teams across a variety of tasks. These range from automation and knowledge assistance to intelligent diagnostics and workflow enhancements. We utilize frameworks such as Llama-stack, FastAPI, FastMCP, and OpenAI to build these AI-driven solutions.
+                        </p>
+
+                        <p>
                             Additionally, we need to be familiar with different CI/CD technologies like Jenkins, GitLab, and Tekton.
                         </p>
                     </Typography>
@@ -67,10 +71,10 @@ export default function Experience() {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                        <p className="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root">
+                        <p>
                             As a consultant at RedHat, my role is to help clients efficiently adopt RedHat technologies and streamline the development and maintenance of their applications, infrastructure, and platforms. A RedHat consultant is expected to recommend best practices when working with cloud technologies, Kubernetes, automation, and application development. This requires staying continuously updated on emerging technologies.
                         </p>
-                        <p className="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root">
+                        <p>
                             Additionally, I have collaborated with the architecture team in delivering presentations and workshops to clients, aimed at showcasing and expanding the use of RedHat technologies.
                         </p>
                     </Typography>
@@ -88,10 +92,10 @@ export default function Experience() {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                        <p className="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root">
+                        <p>
                             As a Solution Architect, I was involved in high-impact tasks across several projects. Some of these tasks included developing proofs of concept to evaluate the viability of proposed solutions, designing applications and platform systems to meet customer requirements for performance, security, and capacity. I also worked on complex application architectures using various tech stacks and approaches, such as event-driven, serverless, and streaming microservices architectures. During this period, I consistently utilized Kubernetes, ensuring that all applications and the designed platform adhered to cloud-native best practices.
                         </p>
-                        <p className="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root">
+                        <p>
                             In addition to my technical role, I was responsible for enhancing team effectiveness. I served as a Team Lead, balancing both leadership and technical responsibilities.
                         </p>
                     </Typography>
@@ -109,7 +113,7 @@ export default function Experience() {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                        <p className="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root">
+                        <p>
                             During this period I was involucrated in the evolution of some monolithic applications to microservices ecosystems and the migration to cloud native applications. I also was working with Kubernetes, Infrastructure-as-code or NoSQL databases. I started to concern about high level design decisions as platform, infrastructure or monitoring/observability, as well as application architecture. Also, I initiated my journey with automation tools as Ansible or Terraform.
                         </p> 
                     </Typography>
@@ -127,7 +131,7 @@ export default function Experience() {
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
-                        <p className="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root">
+                        <p >
                             I was developing applications with Spring boot and Angular framework. I had some responsabilites in CI/CD process performed by Jenkins and deploying new application releases in AWS Elastic Beanstalk.
                         </p> 
                     </Typography>
