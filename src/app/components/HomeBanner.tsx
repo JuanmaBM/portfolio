@@ -3,7 +3,8 @@ import TypewriterComponent from "typewriter-effect";
 
 const jobsTitles = [
     "Sofware Engineer at RedHat",
-    "DevOps Enthusiast",
+    "AI/ML Enthusiast",
+    "DevOps Advocate",
     "Open Source Contributor",
     "Technical Writer",
 ]

@@ -1,8 +1,7 @@
-import { Box, Card, CardActionArea, CardContent, CardMedia, Stack, Typography } from "@mui/material";
+import { Box, Card, CardActionArea, CardContent, CardMedia, Grid, Stack, Typography } from "@mui/material";
 import { Row } from "react-bootstrap";
 import SlideSection from "./SlideSection";
 import { useState } from "react";
-import Grid from "@mui/material/Grid2";
 import { styled } from "@mui/material/styles";
 import Color from "color"; // v3.2.1
 
