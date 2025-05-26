@@ -1,4 +1,4 @@
-import { Box, Tab, Tabs } from "@mui/material";
+import { Box, Tab, Tabs, Zoom } from "@mui/material";
 import React, { useState } from "react";
 import { Col, Row } from "react-bootstrap";
 import SlideSection from "./SlideSection";
@@ -55,6 +55,7 @@ export default function Skills() {
             </Tabs>
             </Box>
             <CustomTabPanel value={value} index={0}>
+                <Zoom in={true}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
                         <CardLayers3d title="Golang" image="/assets/skills/golang.png"/>
@@ -69,6 +70,8 @@ export default function Skills() {
                         <CardLayers3d title="Java" image="/assets/skills/java.png"/>
                     </Col>
                 </Row>
+                </Zoom>
+                <Zoom in={true} style={{ transitionDelay: '250ms'}}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
                         <CardLayers3d title="JavaScript" image="/assets/skills/js.png"/>
@@ -83,6 +86,8 @@ export default function Skills() {
                         <CardLayers3d title="Quarkus" image="/assets/skills/quarkus.png"/>
                     </Col>
                 </Row>
+                </Zoom>
+                <Zoom in={true} style={{ transitionDelay: '500ms'}}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
                         <CardLayers3d title="Flask" image="/assets/skills/flask.png"/>
@@ -96,8 +101,10 @@ export default function Skills() {
                     <Col>
                     </Col>
                 </Row>
+                </Zoom>
             </CustomTabPanel>
             <CustomTabPanel value={value} index={1}>
+                <Zoom in={true}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
                         <CardLayers3d title="Kubernetes" image="/assets/skills/kubernetes.png"/>
@@ -112,6 +119,8 @@ export default function Skills() {
                         <CardLayers3d title="Podman" image="/assets/skills/podman.png"/>
                     </Col>
                 </Row>
+                </Zoom>
+                <Zoom in={true} style={{ transitionDelay: '250ms'}}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
                         <CardLayers3d title="Helm" image="/assets/skills/helm.png"/>
@@ -126,6 +135,8 @@ export default function Skills() {
                         <CardLayers3d title="Terraform" image="/assets/skills/terraform.png"/>
                     </Col>
                 </Row>
+                </Zoom>
+                <Zoom in={true} style={{ transitionDelay: '500ms'}}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
                         <CardLayers3d title="Bash" image="/assets/skills/bash.png"/>
@@ -140,6 +151,8 @@ export default function Skills() {
                         <CardLayers3d title="ArgoCD" image="/assets/skills/argo.png"/>
                     </Col>
                 </Row>
+                </Zoom>
+                <Zoom in={true} style={{ transitionDelay: '750ms'}}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
                         <CardLayers3d title="Prometheus" image="/assets/skills/prometheus.png"/>
@@ -154,6 +167,8 @@ export default function Skills() {
                         <CardLayers3d title="MQTT" image="/assets/skills/mqtt.png"/>
                     </Col>
                 </Row>
+                </Zoom>
+                <Zoom in={true} style={{ transitionDelay: '1000ms'}}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
                         <CardLayers3d title="Kafka" image="/assets/skills/kafka.png"/>
@@ -166,8 +181,10 @@ export default function Skills() {
                     <Col>
                     </Col>
                 </Row>
+                </Zoom>
             </CustomTabPanel>
             <CustomTabPanel value={value} index={2}>
+                <Zoom in={true}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
                         <CardLayers3d title="PostgreSQL" image="/assets/skills/postgresql.png"/>
@@ -182,6 +199,8 @@ export default function Skills() {
                         <CardLayers3d title="OracleDB" image="/assets/skills/oracle.png"/>
                     </Col>
                 </Row>
+                </Zoom>
+                <Zoom in={true} style={{ transitionDelay: '250ms'}}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
                         <CardLayers3d title="MongoDB" image="/assets/skills/mongo.png"/>
@@ -195,8 +214,10 @@ export default function Skills() {
                     <Col>
                     </Col>
                 </Row>
+                </Zoom>
             </CustomTabPanel>
             <CustomTabPanel value={value} index={3}>
+                <Zoom in={true}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
                         <CardLayers3d title="Ollama" image="/assets/skills/ollama.png"/>
@@ -211,6 +232,8 @@ export default function Skills() {
                         <CardLayers3d title="Openshift AI" image="/assets/skills/ocpai.png"/>
                     </Col>
                 </Row>
+                </Zoom>
+                <Zoom in={true} style={{ transitionDelay: '250ms'}}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
                         <CardLayers3d title="Retrieval-Augmented Generation" image="/assets/skills/rag.png"/>
@@ -222,8 +245,10 @@ export default function Skills() {
                     <Col>
                     </Col>
                 </Row>
+                </Zoom>
             </CustomTabPanel>
             <CustomTabPanel value={value} index={4}>
+                <Zoom in={true}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
                         <CardLayers3d title="Azure DevOps" image="/assets/skills/azure_devops.png"/>
@@ -238,6 +263,8 @@ export default function Skills() {
                         <CardLayers3d title="Azure Event Hub" image="/assets/skills/event_hubs.png"/>
                     </Col>
                 </Row>
+                </Zoom>
+                <Zoom in={true} style={{ transitionDelay: '250ms'}}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
                         <CardLayers3d title="Azure API Management" image="/assets/skills/azure_api.png"/>
@@ -252,6 +279,7 @@ export default function Skills() {
                         <CardLayers3d title="AWS EC2" image="/assets/skills/ec2.png"/>
                     </Col>
                 </Row>
+                </Zoom>
             </CustomTabPanel>
         </Row>
 
