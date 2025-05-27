@@ -1,11 +1,11 @@
-import React, { Children, Dispatch, SetStateAction, useEffect } from "react";
+import React, { Dispatch, SetStateAction, useEffect } from "react";
 import { Slide } from "@mui/material";
 
 interface FadeSectionProps {
     revealPosition: number;
     show: boolean;
     setShow: Dispatch<SetStateAction<boolean>>;
-    content: any;
+    content: React.ReactElement;
 }
 
 export default function SlideSection({

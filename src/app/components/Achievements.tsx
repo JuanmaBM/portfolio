@@ -1,15 +1,15 @@
-import { Box, Card, CardActionArea, CardContent, CardMedia, Grid, Stack, Typography } from "@mui/material";
+import { Box, Card, CardActionArea, CardMedia, Grid } from "@mui/material";
 import { Row } from "react-bootstrap";
 import SlideSection from "./SlideSection";
 import { useState } from "react";
 import { styled } from "@mui/material/styles";
-import Color from "color"; // v3.2.1
+import Color from "color";
 
 export default function Achievements() {
 
     const [showAchievements, setShowAchievements] = useState(false)
 
-    let achievements = [
+    const achievements = [
         {
             image: '/assets/achievements/architect.png',
         },
@@ -88,8 +88,8 @@ export default function Achievements() {
                 }}
             />
             <Grid container spacing={3}>
-                {achievements.map((value) =>
-                    <Grid>
+                {achievements.map((value, index) =>
+                    <Grid key={index}>
                         <CustomCard image={value.image}/>
                     </Grid>
                 )}

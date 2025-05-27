@@ -1,6 +1,6 @@
-import { Accordion, AccordionDetails, AccordionSummary, Avatar, Box, Slide, Typography } from "@mui/material";
+import { Accordion, AccordionDetails, AccordionSummary, Avatar, Box, Typography } from "@mui/material";
 import { useEffect, useState } from "react";
-import { Col, Row } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import SlideSection from "./SlideSection";
 
 export default function Experience() {

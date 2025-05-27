@@ -20,7 +20,7 @@ export default function HomeBanner() {
         <Container>
             <Row>
                 <Col>
-                    <h2>Hi there, I'm</h2>
+                    <h2>Hi there, I&apos;m</h2>
                     <h1>Juanma Barea Martinez</h1>
                     <TypewriterComponent options={writerOptions} />
                 </Col>

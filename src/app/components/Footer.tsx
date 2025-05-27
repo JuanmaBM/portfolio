@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { GitHub, LinkedIn, Email } from "@mui/icons-material";
-import CreditCardIcon from "@mui/icons-material/CreditCard";
 import { Box, IconButton, Stack } from "@mui/material";
 import SlideSection from "./SlideSection";
 
