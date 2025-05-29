@@ -92,29 +92,29 @@ export default function Skills() {
                 <Zoom in={true} style={{ transitionDelay: '250ms'}}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
-                        <CardLayers3d title="JavaScript" image="/assets/skills/js.png"/>
+                        <CardLayers3d title="JavaScript" image="./assets/skills/js.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Spring Framework" image="/assets/skills/spring.png"/>
+                        <CardLayers3d title="Spring Framework" image="./assets/skills/spring.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Spring Boot" image="/assets/skills/boot.png"/>
+                        <CardLayers3d title="Spring Boot" image="./assets/skills/boot.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Quarkus" image="/assets/skills/quarkus.png"/>
+                        <CardLayers3d title="Quarkus" image="./assets/skills/quarkus.png"/>
                     </Col>
                 </Row>
                 </Zoom>
                 <Zoom in={true} style={{ transitionDelay: '500ms'}}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
-                        <CardLayers3d title="Flask" image="/assets/skills/flask.png"/>
+                        <CardLayers3d title="Flask" image="./assets/skills/flask.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="React" image="/assets/skills/react.png"/>
+                        <CardLayers3d title="React" image="./assets/skills/react.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Angular" image="/assets/skills/angular.png"/>
+                        <CardLayers3d title="Angular" image="./assets/skills/angular.png"/>
                     </Col>
                     <Col>
                     </Col>
@@ -125,74 +125,74 @@ export default function Skills() {
                 <Zoom in={true}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
-                        <CardLayers3d title="Kubernetes" image="/assets/skills/kubernetes.png"/>
+                        <CardLayers3d title="Kubernetes" image="./assets/skills/kubernetes.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Openshift" image="/assets/skills/ocp.png"/>
+                        <CardLayers3d title="Openshift" image="./assets/skills/ocp.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Docker" image="/assets/skills/docker.png"/>
+                        <CardLayers3d title="Docker" image="./assets/skills/docker.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Podman" image="/assets/skills/podman.png"/>
+                        <CardLayers3d title="Podman" image="./assets/skills/podman.png"/>
                     </Col>
                 </Row>
                 </Zoom>
                 <Zoom in={true} style={{ transitionDelay: '250ms'}}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
-                        <CardLayers3d title="Helm" image="/assets/skills/helm.png"/>
+                        <CardLayers3d title="Helm" image="./assets/skills/helm.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Kustomize" image="/assets/skills/kustomize.png"/>
+                        <CardLayers3d title="Kustomize" image="./assets/skills/kustomize.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Ansible" image="/assets/skills/ansible.png"/>
+                        <CardLayers3d title="Ansible" image="./assets/skills/ansible.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Terraform" image="/assets/skills/terraform.png"/>
+                        <CardLayers3d title="Terraform" image="./assets/skills/terraform.png"/>
                     </Col>
                 </Row>
                 </Zoom>
                 <Zoom in={true} style={{ transitionDelay: '500ms'}}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
-                        <CardLayers3d title="Bash" image="/assets/skills/bash.png"/>
+                        <CardLayers3d title="Bash" image="./assets/skills/bash.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Jenkins" image="/assets/skills/jenkins.png"/>
+                        <CardLayers3d title="Jenkins" image="./assets/skills/jenkins.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Tekton" image="/assets/skills/tekton.png"/>
+                        <CardLayers3d title="Tekton" image="./assets/skills/tekton.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="ArgoCD" image="/assets/skills/argo.png"/>
+                        <CardLayers3d title="ArgoCD" image="./assets/skills/argo.png"/>
                     </Col>
                 </Row>
                 </Zoom>
                 <Zoom in={true} style={{ transitionDelay: '750ms'}}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
-                        <CardLayers3d title="Prometheus" image="/assets/skills/prometheus.png"/>
+                        <CardLayers3d title="Prometheus" image="./assets/skills/prometheus.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Grafana" image="/assets/skills/grafana.png"/>
+                        <CardLayers3d title="Grafana" image="./assets/skills/grafana.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="KEDA" image="/assets/skills/keda.png"/>
+                        <CardLayers3d title="KEDA" image="./assets/skills/keda.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="MQTT" image="/assets/skills/mqtt.png"/>
+                        <CardLayers3d title="MQTT" image="./assets/skills/mqtt.png"/>
                     </Col>
                 </Row>
                 </Zoom>
                 <Zoom in={true} style={{ transitionDelay: '1000ms'}}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
-                        <CardLayers3d title="Kafka" image="/assets/skills/kafka.png"/>
+                        <CardLayers3d title="Kafka" image="./assets/skills/kafka.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="RabbitMQ" image="/assets/skills/rabbit.png"/>
+                        <CardLayers3d title="RabbitMQ" image="./assets/skills/rabbit.png"/>
                     </Col>
                     <Col>
                     </Col>
@@ -205,29 +205,29 @@ export default function Skills() {
                 <Zoom in={true}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
-                        <CardLayers3d title="PostgreSQL" image="/assets/skills/postgresql.png"/>
+                        <CardLayers3d title="PostgreSQL" image="./assets/skills/postgresql.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="MariaDB" image="/assets/skills/mariadb.png"/>
+                        <CardLayers3d title="MariaDB" image="./assets/skills/mariadb.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="MySQL" image="/assets/skills/mysql.png"/>
+                        <CardLayers3d title="MySQL" image="./assets/skills/mysql.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="OracleDB" image="/assets/skills/oracle.png"/>
+                        <CardLayers3d title="OracleDB" image="./assets/skills/oracle.png"/>
                     </Col>
                 </Row>
                 </Zoom>
                 <Zoom in={true} style={{ transitionDelay: '250ms'}}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
-                        <CardLayers3d title="MongoDB" image="/assets/skills/mongo.png"/>
+                        <CardLayers3d title="MongoDB" image="./assets/skills/mongo.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="CassandraDB" image="/assets/skills/cassandra.png"/>
+                        <CardLayers3d title="CassandraDB" image="./assets/skills/cassandra.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="InfluxDB" image="/assets/skills/influxdb.png"/>
+                        <CardLayers3d title="InfluxDB" image="./assets/skills/influxdb.png"/>
                     </Col>
                     <Col>
                     </Col>
@@ -238,23 +238,23 @@ export default function Skills() {
                 <Zoom in={true}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
-                        <CardLayers3d title="Ollama" image="/assets/skills/ollama.png"/>
+                        <CardLayers3d title="Ollama" image="./assets/skills/ollama.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Mistral AI" image="/assets/skills/mistral.png"/>
+                        <CardLayers3d title="Mistral AI" image="./assets/skills/mistral.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Llama AI" image="/assets/skills/llama.png"/>
+                        <CardLayers3d title="Llama AI" image="./assets/skills/llama.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Openshift AI" image="/assets/skills/ocpai.png"/>
+                        <CardLayers3d title="Openshift AI" image="./assets/skills/ocpai.png"/>
                     </Col>
                 </Row>
                 </Zoom>
                 <Zoom in={true} style={{ transitionDelay: '250ms'}}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
-                        <CardLayers3d title="Retrieval-Augmented Generation" image="/assets/skills/rag.png"/>
+                        <CardLayers3d title="Retrieval-Augmented Generation" image="./assets/skills/rag.png"/>
                     </Col>
                     <Col>
                     </Col>
@@ -269,32 +269,32 @@ export default function Skills() {
                 <Zoom in={true}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
-                        <CardLayers3d title="Azure DevOps" image="/assets/skills/azure_devops.png"/>
+                        <CardLayers3d title="Azure DevOps" image="./assets/skills/azure_devops.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Azure AKS" image="/assets/skills/aks.png"/>
+                        <CardLayers3d title="Azure AKS" image="./assets/skills/aks.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Azure CosmosDB" image="/assets/skills/cosmos.png"/>
+                        <CardLayers3d title="Azure CosmosDB" image="./assets/skills/cosmos.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Azure Event Hub" image="/assets/skills/event_hubs.png"/>
+                        <CardLayers3d title="Azure Event Hub" image="./assets/skills/event_hubs.png"/>
                     </Col>
                 </Row>
                 </Zoom>
                 <Zoom in={true} style={{ transitionDelay: '250ms'}}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
-                        <CardLayers3d title="Azure API Management" image="/assets/skills/azure_api.png"/>
+                        <CardLayers3d title="Azure API Management" image="./assets/skills/azure_api.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="AWS CodePipeline" image="/assets/skills/pipeline.png"/>
+                        <CardLayers3d title="AWS CodePipeline" image="./assets/skills/pipeline.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="AWS Elastic Beanstalk" image="/assets/skills/eb.png"/>
+                        <CardLayers3d title="AWS Elastic Beanstalk" image="./assets/skills/eb.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="AWS EC2" image="/assets/skills/ec2.png"/>
+                        <CardLayers3d title="AWS EC2" image="./assets/skills/ec2.png"/>
                     </Col>
                 </Row>
                 </Zoom>

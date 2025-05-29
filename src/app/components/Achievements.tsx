@@ -11,31 +11,31 @@ export default function Achievements() {
 
     const achievements = [
         {
-            image: '/assets/achievements/architect.png',
+            image: './assets/achievements/architect.png',
         },
         {
-            image: '/assets/achievements/cnd.png',
+            image: './assets/achievements/cnd.png',
         },
         {
-            image: '/assets/achievements/architect_ocp.png',
+            image: './assets/achievements/architect_ocp.png',
         },
         {
-            image: '/assets/achievements/developer.png',
+            image: './assets/achievements/developer.png',
         },
         {
-            image: '/assets/achievements/openshift_admin.png',
+            image: './assets/achievements/openshift_admin.png',
         },
         {
-            image: '/assets/achievements/openshift_ai.png',
+            image: './assets/achievements/openshift_ai.png',
         },
         {
-            image: '/assets/achievements/acm.png',
+            image: './assets/achievements/acm.png',
         },
         {
-            image: '/assets/achievements/mesh.png',
+            image: './assets/achievements/mesh.png',
         },
         {
-            image: '/assets/achievements/kubernetes_specialist.png',
+            image: './assets/achievements/kubernetes_specialist.png',
         },
     ]
 

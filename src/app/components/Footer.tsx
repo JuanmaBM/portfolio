@@ -34,7 +34,7 @@ export default function Footer() {
             {
               icon: (
                 <img
-                  src="/assets/credly.png"
+                  src="./assets/credly.png"
                   alt="Credly"
                   width={32}
                   height={32}
