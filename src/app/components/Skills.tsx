@@ -76,16 +76,16 @@ export default function Skills() {
                 <Zoom in={true}>
                 <Row style={{ paddingBottom: '5vh' }}>
                     <Col>
-                        <CardLayers3d title="Golang" image="/assets/skills/golang.png"/>
+                        <CardLayers3d title="Golang" image="./assets/skills/golang.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Typescript" image="/assets/skills/ts.png"/>
+                        <CardLayers3d title="Typescript" image="./assets/skills/ts.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Python" image="/assets/skills/python.png"/>
+                        <CardLayers3d title="Python" image="./assets/skills/python.png"/>
                     </Col>
                     <Col>
-                        <CardLayers3d title="Java" image="/assets/skills/java.png"/>
+                        <CardLayers3d title="Java" image="./assets/skills/java.png"/>
                     </Col>
                 </Row>
                 </Zoom>
